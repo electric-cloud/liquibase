@@ -11,13 +11,13 @@
 	<artifactId>liquibase-core</artifactId>
 	<name>Liquibase Core</name>
 	<packaging>jar</packaging>
-
+	<version>3.6.1-PATCH1</version>
 
 	<properties>
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
 		<bundle.namespace>liquibase.*</bundle.namespace>
-        <project.version>3.6.1</project.version>
+        <project.version>3.6.1-PATCH1</project.version>
 	</properties>
 
 	<dependencies>
