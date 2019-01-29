@@ -478,7 +478,7 @@ public abstract class AbstractJdbcDatabase implements Database {
      * @param isoDate
      */
     protected boolean isTimestamp(final String isoDate) {
-        return isoDate.matches("^\\d{4}\\-\\d{2}\\-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?$");
+        return isoDate.matches("^\\d{4}\\-\\d{2}\\-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d+$");
     }
 
     /***
